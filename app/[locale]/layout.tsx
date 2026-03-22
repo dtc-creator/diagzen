@@ -3,6 +3,7 @@ import { DM_Mono, Inter, Cairo } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import { locales, type Locale } from '@/i18n';
 import '../globals.css';
 
@@ -49,12 +50,32 @@ export default async function LocaleLayout({
   const isRTL = locale === 'ar';
   const fontClass = locale === 'ar' ? cairo.variable : '';
 
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
     <html
       lang={locale}
       dir={isRTL ? 'rtl' : 'ltr'}
       className={`${dmMono.variable} ${inter.variable} ${fontClass}`}
     >
+      <head>
+        {gaId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${gaId}');
+              `}
+            </Script>
+          </>
+        )}
+      </head>
       <body className={`bg-navy-950 text-white ${locale === 'ar' ? 'font-cairo' : 'font-sans'} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}

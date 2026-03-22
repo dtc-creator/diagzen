@@ -29,10 +29,10 @@ export interface DiagnosisResult {
     question_en: string;
     question_ar: string;
     question_fr: string;
-    yes_next: number | null;
-    no_next: number | null;
-    yes_action: string;
-    no_action: string;
+    yes_next: number | 'result';
+    no_next: number | 'result';
+    yes_result?: string;
+    no_result?: string;
   }>;
   parts_needed: Array<{ name_en: string; name_ar: string; name_fr: string; search_query: string }>;
   diy_possible: boolean;

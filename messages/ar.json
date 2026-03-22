@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عن الموقع",
+    "contact": "تواصل معنا",
+    "symptoms": "الأعراض"
+  },
+  "hero": {
+    "title": "تشخيص السيارات بالذكاء الاصطناعي",
+    "subtitle": "أدخل أي رمز خطأ OBD-II للحصول على تشخيص فوري",
+    "placeholder": "أدخل رمز الخطأ (مثال: P0087)",
+    "button": "تشخيص الآن",
+    "error_format": "تنسيق غير صحيح. استخدم P/B/C/U متبوعاً بـ 4 أرقام (مثال: P0087)"
+  },
+  "howItWorks": {
+    "title": "كيف يعمل؟",
+    "step1_title": "أدخل رمز الخطأ",
+    "step1_desc": "اكتب أي رمز DTC من جهاز الفحص",
+    "step2_title": "الذكاء الاصطناعي يحلل المشكلة",
+    "step2_desc": "يعالج محرك الذكاء الاصطناعي رمز الخطأ فوراً",
+    "step3_title": "احصل على تشخيص كامل",
+    "step3_desc": "تلقَّ الأسباب والإصلاحات وتقديرات التكلفة"
+  },
+  "mostSearched": {
+    "title": "الرموز الأكثر بحثاً"
+  },
+  "makes": {
+    "title": "تصفح حسب ماركة السيارة"
+  },
+  "whyDiagzen": {
+    "title": "لماذا ديagزن؟",
+    "ai_title": "بالذكاء الاصطناعي",
+    "ai_desc": "ذكاء حقيقي وليس مجرد قاعدة بيانات ثابتة",
+    "multilingual_title": "متعدد اللغات",
+    "multilingual_desc": "دعم اللغات العربية والإنجليزية والفرنسية",
+    "free_title": "مجاني 100%",
+    "free_desc": "لا يلزم التسجيل. مجاني دائماً."
+  },
+  "footer": {
+    "copyright": "© 2025 ديagزن. جميع الحقوق محفوظة."
+  },
+  "dtc": {
+    "title_prefix": "كود",
+    "severity_critical": "حرج",
+    "severity_moderate": "متوسط",
+    "severity_minor": "بسيط",
+    "common_causes": "الأسباب الشائعة",
+    "related_codes": "الرموز ذات الصلة",
+    "ai_cta": "🔍 احصل على تشخيص مفصل",
+    "loading": "جارٍ تحليل رمز الخطأ...",
+    "severity_label": "الخطورة",
+    "causes_label": "الأسباب المحتملة",
+    "symptoms_label": "الأعراض",
+    "cost_label": "تكلفة الإصلاح التقديرية",
+    "time_label": "وقت الإصلاح",
+    "diy_yes": "يمكن الإصلاح بنفسك",
+    "diy_no": "يُنصح بمراجعة متخصص",
+    "workflow_title": "دليل التشخيص الموجَّه",
+    "workflow_yes": "نعم",
+    "workflow_no": "لا",
+    "parts_title": "قطع الغيار المقترحة",
+    "amazon_button": "البحث في أمازون",
+    "testimonials_title": "ماذا يقول المستخدمون",
+    "share_link": "شارك تجربتك"
+  },
+  "makes_page": {
+    "title_prefix": "أكثر أكواد الأعطال شيوعاً في سيارات",
+    "title_suffix": ""
+  },
+  "symptoms": {
+    "title": "تشخيص حسب الأعراض",
+    "subtitle": "اختر العرض للحصول على رموز الأعطال المحتملة",
+    "engine_wont_start": "المحرك لا يشتغل",
+    "poor_fuel_economy": "استهلاك وقود مرتفع",
+    "engine_misfiring": "تعثر المحرك",
+    "check_engine_light": "إضاءة مصباح المحرك",
+    "car_stalling": "توقف السيارة",
+    "rough_idle": "اهتزاز عند الوقوف",
+    "loss_of_power": "فقدان القدرة",
+    "strange_noise": "صوت غريب",
+    "loading": "جارٍ البحث عن الرموز المحتملة...",
+    "results_title": "رموز الأعطال المحتملة"
+  }
+}

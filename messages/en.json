@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "symptoms": "Symptoms"
+  },
+  "hero": {
+    "title": "AI-Powered Car Diagnostic",
+    "subtitle": "Enter any OBD-II fault code for instant diagnosis",
+    "placeholder": "Enter DTC code (e.g. P0087)",
+    "button": "Diagnose Now",
+    "error_format": "Invalid format. Use P/B/C/U followed by 4 digits (e.g. P0087)"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1_title": "Enter Your Fault Code",
+    "step1_desc": "Type any OBD-II DTC code from your scanner",
+    "step2_title": "AI Analyzes the Problem",
+    "step2_desc": "Our AI engine processes your fault code instantly",
+    "step3_title": "Get Full Diagnosis",
+    "step3_desc": "Receive causes, fixes, and cost estimates"
+  },
+  "mostSearched": {
+    "title": "Most Searched Codes"
+  },
+  "makes": {
+    "title": "Browse by Car Brand"
+  },
+  "whyDiagzen": {
+    "title": "Why DiagZen?",
+    "ai_title": "AI-Powered",
+    "ai_desc": "Real intelligence, not just a static database",
+    "multilingual_title": "Multilingual",
+    "multilingual_desc": "Arabic, English, and French support",
+    "free_title": "100% Free",
+    "free_desc": "No registration required. Always free."
+  },
+  "footer": {
+    "copyright": "© 2025 DiagZen. All rights reserved."
+  },
+  "dtc": {
+    "title_prefix": "Code",
+    "severity_critical": "Critical",
+    "severity_moderate": "Moderate",
+    "severity_minor": "Minor",
+    "common_causes": "Common Causes",
+    "related_codes": "Related Codes",
+    "ai_cta": "🔍 Get Full AI Diagnosis",
+    "loading": "Analyzing fault code...",
+    "severity_label": "Severity",
+    "causes_label": "Probable Causes",
+    "symptoms_label": "Symptoms",
+    "cost_label": "Estimated Repair Cost",
+    "time_label": "Repair Time",
+    "diy_yes": "DIY Possible",
+    "diy_no": "Professional Repair Recommended",
+    "workflow_title": "Guided Diagnosis Workflow",
+    "workflow_yes": "Yes",
+    "workflow_no": "No",
+    "parts_title": "Suggested Replacement Parts",
+    "amazon_button": "Search on Amazon",
+    "testimonials_title": "What Users Say",
+    "share_link": "Share your experience"
+  },
+  "makes_page": {
+    "title_prefix": "Common",
+    "title_suffix": "Fault Codes"
+  },
+  "symptoms": {
+    "title": "Diagnose by Symptom",
+    "subtitle": "Select your symptom to get likely fault codes",
+    "engine_wont_start": "Engine Won't Start",
+    "poor_fuel_economy": "Poor Fuel Economy",
+    "engine_misfiring": "Engine Misfiring",
+    "check_engine_light": "Check Engine Light On",
+    "car_stalling": "Car Stalling",
+    "rough_idle": "Rough Idle",
+    "loss_of_power": "Loss of Power",
+    "strange_noise": "Strange Noise",
+    "loading": "Finding likely codes...",
+    "results_title": "Likely Fault Codes"
+  }
+}

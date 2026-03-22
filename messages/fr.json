@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "symptoms": "Symptômes"
+  },
+  "hero": {
+    "title": "Diagnostic Auto par IA",
+    "subtitle": "Entrez n'importe quel code OBD-II pour un diagnostic instantané",
+    "placeholder": "Entrez un code DTC (ex: P0087)",
+    "button": "Diagnostiquer",
+    "error_format": "Format invalide. Utilisez P/B/C/U suivi de 4 chiffres (ex: P0087)"
+  },
+  "howItWorks": {
+    "title": "Comment ça marche ?",
+    "step1_title": "Entrez votre code",
+    "step1_desc": "Tapez n'importe quel code DTC depuis votre scanner",
+    "step2_title": "L'IA analyse le problème",
+    "step2_desc": "Notre moteur IA traite votre code de défaut instantanément",
+    "step3_title": "Obtenez un diagnostic complet",
+    "step3_desc": "Recevez les causes, les réparations et les estimations de coût"
+  },
+  "mostSearched": {
+    "title": "Codes les plus recherchés"
+  },
+  "makes": {
+    "title": "Parcourir par marque"
+  },
+  "whyDiagzen": {
+    "title": "Pourquoi DiagZen ?",
+    "ai_title": "Propulsé par l'IA",
+    "ai_desc": "Une vraie intelligence, pas une simple base de données",
+    "multilingual_title": "Multilingue",
+    "multilingual_desc": "Arabe, anglais et français",
+    "free_title": "100% Gratuit",
+    "free_desc": "Sans inscription. Toujours gratuit."
+  },
+  "footer": {
+    "copyright": "© 2025 DiagZen. Tous droits réservés."
+  },
+  "dtc": {
+    "title_prefix": "Code",
+    "severity_critical": "Critique",
+    "severity_moderate": "Modéré",
+    "severity_minor": "Mineur",
+    "common_causes": "Causes courantes",
+    "related_codes": "Codes associés",
+    "ai_cta": "🔍 Obtenir un diagnostic complet",
+    "loading": "Analyse du code de défaut...",
+    "severity_label": "Sévérité",
+    "causes_label": "Causes probables",
+    "symptoms_label": "Symptômes",
+    "cost_label": "Coût de réparation estimé",
+    "time_label": "Temps de réparation",
+    "diy_yes": "Réparation DIY possible",
+    "diy_no": "Réparation professionnelle recommandée",
+    "workflow_title": "Diagnostic guidé",
+    "workflow_yes": "Oui",
+    "workflow_no": "Non",
+    "parts_title": "Pièces de rechange suggérées",
+    "amazon_button": "Rechercher sur Amazon",
+    "testimonials_title": "Ce que disent nos utilisateurs",
+    "share_link": "Partagez votre expérience"
+  },
+  "makes_page": {
+    "title_prefix": "Codes de panne courants",
+    "title_suffix": ""
+  },
+  "symptoms": {
+    "title": "Diagnostiquer par symptôme",
+    "subtitle": "Sélectionnez votre symptôme pour obtenir les codes probables",
+    "engine_wont_start": "Moteur ne démarre pas",
+    "poor_fuel_economy": "Mauvaise consommation",
+    "engine_misfiring": "Ratés d'allumage",
+    "check_engine_light": "Voyant moteur allumé",
+    "car_stalling": "Calage du moteur",
+    "rough_idle": "Ralenti irrégulier",
+    "loss_of_power": "Perte de puissance",
+    "strange_noise": "Bruit suspect",
+    "loading": "Recherche des codes probables...",
+    "results_title": "Codes de panne probables"
+  }
+}

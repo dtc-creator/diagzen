@@ -51,7 +51,8 @@ Return 4-6 likely_codes ranked by probability, and 3-5 quick_checks.`,
     return NextResponse.json(data);
 
   } catch (error) {
-    console.error('Symptoms API error:', error);
-    return NextResponse.json({ error: 'Failed to analyze symptom.' }, { status: 500 });
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error('Symptoms API error:', msg);
+    return NextResponse.json({ error: 'Failed to analyze symptom.', detail: msg }, { status: 500 });
   }
 }

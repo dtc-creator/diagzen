@@ -1,0 +1,29 @@
+{
+  "code": "U0732",
+  "system": "Network Communication",
+  "category": "Network",
+  "title_en": "U0732 — Network Communication Fault",
+  "title_ar": "كود U0732 — عطل Network Communication",
+  "title_fr": "Code U0732 — Défaut Network Communication",
+  "description_en": "Diagnostic trouble code U0732 indicates a fault in the Network Communication system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل U0732 يشير إلى خلل في نظام Network Communication. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic U0732 indique une défaillance dans le système Network Communication. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "moderate",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:04:45.871Z",
+  "content_type": "static"
+}

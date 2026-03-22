@@ -1,0 +1,29 @@
+{
+  "code": "U0851",
+  "system": "Network Communication",
+  "category": "Network",
+  "title_en": "U0851 — Network Communication Fault",
+  "title_ar": "كود U0851 — عطل Network Communication",
+  "title_fr": "Code U0851 — Défaut Network Communication",
+  "description_en": "Diagnostic trouble code U0851 indicates a fault in the Network Communication system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل U0851 يشير إلى خلل في نظام Network Communication. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic U0851 indique une défaillance dans le système Network Communication. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "moderate",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:04:45.886Z",
+  "content_type": "static"
+}

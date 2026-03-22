@@ -1,0 +1,29 @@
+{
+  "code": "P0370",
+  "system": "Auxiliary Emission Controls",
+  "category": "Emissions",
+  "title_en": "P0370 — Auxiliary Emission Controls Fault",
+  "title_ar": "كود P0370 — عطل Auxiliary Emission Controls",
+  "title_fr": "Code P0370 — Défaut Auxiliary Emission Controls",
+  "description_en": "Diagnostic trouble code P0370 indicates a fault in the Auxiliary Emission Controls system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل P0370 يشير إلى خلل في نظام Auxiliary Emission Controls. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic P0370 indique une défaillance dans le système Auxiliary Emission Controls. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "minor",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:02:31.901Z",
+  "content_type": "static"
+}

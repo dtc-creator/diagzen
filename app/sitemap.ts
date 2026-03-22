@@ -1,10 +1,15 @@
 import { MetadataRoute } from 'next';
-import { TOP_100_DTC_CODES, BRANDS } from '@/lib/dtc-codes';
+import fs from 'fs';
+import path from 'path';
+import { BRANDS } from '@/lib/dtc-codes';
 
 const LOCALES = ['en', 'ar', 'fr'];
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://diagzen.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const dtcDir = path.join(process.cwd(), 'data/dtc');
+  const codes = fs.readdirSync(dtcDir).map((f) => f.replace('.json', ''));
+
   const routes: MetadataRoute.Sitemap = [];
 
   // Homepages
@@ -17,9 +22,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // DTC pages
-  for (const locale of LOCALES) {
-    for (const code of TOP_100_DTC_CODES) {
+  // All DTC pages (6,000 codes × 3 locales = 18,000)
+  for (const code of codes) {
+    for (const locale of LOCALES) {
       routes.push({
         url: `${BASE_URL}/${locale}/dtc/${code}`,
         lastModified: new Date(),

@@ -1,0 +1,29 @@
+{
+  "code": "C0101",
+  "system": "Chassis Control",
+  "category": "Chassis",
+  "title_en": "C0101 — Chassis Control Fault",
+  "title_ar": "كود C0101 — عطل Chassis Control",
+  "title_fr": "Code C0101 — Défaut Chassis Control",
+  "description_en": "Diagnostic trouble code C0101 indicates a fault in the Chassis Control system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل C0101 يشير إلى خلل في نظام Chassis Control. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic C0101 indique une défaillance dans le système Chassis Control. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "moderate",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:04:31.226Z",
+  "content_type": "static"
+}

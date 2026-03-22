@@ -1,0 +1,29 @@
+{
+  "code": "P0592",
+  "system": "Computer and Output Circuit",
+  "category": "Electronics",
+  "title_en": "P0592 — Computer and Output Circuit Fault",
+  "title_ar": "كود P0592 — عطل Computer and Output Circuit",
+  "title_fr": "Code P0592 — Défaut Computer and Output Circuit",
+  "description_en": "Diagnostic trouble code P0592 indicates a fault in the Computer and Output Circuit system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل P0592 يشير إلى خلل في نظام Computer and Output Circuit. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic P0592 indique une défaillance dans le système Computer and Output Circuit. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "minor",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:02:31.924Z",
+  "content_type": "static"
+}

@@ -1,0 +1,29 @@
+{
+  "code": "P0452",
+  "system": "Vehicle Speed and Idle Control",
+  "category": "Engine",
+  "title_en": "P0452 — Vehicle Speed and Idle Control Fault",
+  "title_ar": "كود P0452 — عطل Vehicle Speed and Idle Control",
+  "title_fr": "Code P0452 — Défaut Vehicle Speed and Idle Control",
+  "description_en": "Diagnostic trouble code P0452 indicates a fault in the Vehicle Speed and Idle Control system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل P0452 يشير إلى خلل في نظام Vehicle Speed and Idle Control. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic P0452 indique une défaillance dans le système Vehicle Speed and Idle Control. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "minor",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:02:31.910Z",
+  "content_type": "static"
+}

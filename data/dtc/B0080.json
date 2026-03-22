@@ -1,0 +1,29 @@
+{
+  "code": "B0080",
+  "system": "Body Control",
+  "category": "Body",
+  "title_en": "B0080 — Body Control Fault",
+  "title_ar": "كود B0080 — عطل Body Control",
+  "title_fr": "Code B0080 — Défaut Body Control",
+  "description_en": "Diagnostic trouble code B0080 indicates a fault in the Body Control system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل B0080 يشير إلى خلل في نظام Body Control. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic B0080 indique une défaillance dans le système Body Control. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "moderate",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:03:53.476Z",
+  "content_type": "static"
+}

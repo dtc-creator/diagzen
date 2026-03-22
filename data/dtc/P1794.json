@@ -1,0 +1,29 @@
+{
+  "code": "P1794",
+  "system": "Hybrid Propulsion",
+  "category": "Hybrid",
+  "title_en": "P1794 — Hybrid Propulsion Fault",
+  "title_ar": "كود P1794 — عطل Hybrid Propulsion",
+  "title_fr": "Code P1794 — Défaut Hybrid Propulsion",
+  "description_en": "Diagnostic trouble code P1794 indicates a fault in the Hybrid Propulsion system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل P1794 يشير إلى خلل في نظام Hybrid Propulsion. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic P1794 indique une défaillance dans le système Hybrid Propulsion. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "moderate",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:03:20.211Z",
+  "content_type": "static"
+}

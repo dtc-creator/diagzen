@@ -1,0 +1,29 @@
+{
+  "code": "C0472",
+  "system": "Chassis Control",
+  "category": "Chassis",
+  "title_en": "C0472 — Chassis Control Fault",
+  "title_ar": "كود C0472 — عطل Chassis Control",
+  "title_fr": "Code C0472 — Défaut Chassis Control",
+  "description_en": "Diagnostic trouble code C0472 indicates a fault in the Chassis Control system. This code is detected by the vehicle's onboard diagnostic system and requires professional diagnosis.",
+  "description_ar": "كود العطل C0472 يشير إلى خلل في نظام Chassis Control. يتم اكتشاف هذا الكود بواسطة نظام التشخيص الإلكتروني للسيارة.",
+  "description_fr": "Le code de diagnostic C0472 indique une défaillance dans le système Chassis Control. Ce code est détecté par le système de diagnostic embarqué du véhicule.",
+  "severity": "minor",
+  "common_causes_en": [
+    "Faulty sensor or wiring",
+    "Software or calibration issue",
+    "Mechanical component failure"
+  ],
+  "common_causes_ar": [
+    "عطل في الحساس أو الأسلاك",
+    "مشكلة في البرمجة أو المعايرة",
+    "عطل ميكانيكي"
+  ],
+  "common_causes_fr": [
+    "Capteur ou câblage défectueux",
+    "Problème logiciel ou de calibration",
+    "Défaillance mécanique"
+  ],
+  "generated_at": "2026-03-22T19:04:31.267Z",
+  "content_type": "static"
+}

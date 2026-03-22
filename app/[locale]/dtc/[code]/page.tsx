@@ -7,6 +7,9 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import DiagnosisResult from '@/components/DiagnosisResult';
+import CommunitySection from '@/components/CommunitySection';
+import NHTSASection from '@/components/NHTSASection';
+import YouTubeSection from '@/components/YouTubeSection';
 import {
   DTC_STATIC_DATA,
   isValidDTC,
@@ -281,6 +284,15 @@ export default async function DTCPage({ params }: Props) {
 
         {/* Dynamic AI section */}
         <DiagnosisResult code={upperCode} />
+
+        {/* YouTube repair videos */}
+        <YouTubeSection code={upperCode} locale={locale} />
+
+        {/* NHTSA official safety data */}
+        <NHTSASection code={upperCode} locale={locale} />
+
+        {/* Community discussions */}
+        <CommunitySection code={upperCode} locale={locale} />
       </main>
 
       <Footer locale={locale} />
